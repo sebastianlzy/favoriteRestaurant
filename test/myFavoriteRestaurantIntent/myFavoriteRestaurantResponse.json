@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "sessionAttributes": {
+    "favoriteColor": "red"
+  },
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "I now know your favorite color is red. You can ask me your favorite color by saying, what's my favorite color?"
+    },
+    "card": {
+      "type": "Simple",
+      "title": "SessionSpeechlet - MyFavoriteRestaurantIsIntent",
+      "content": "SessionSpeechlet - I now know your favorite color is red. You can ask me your favorite color by saying, what's my favorite color?"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "You can ask me your favorite color by saying, what's my favorite color?"
+      }
+    },
+    "shouldEndSession": false
+  }
+}

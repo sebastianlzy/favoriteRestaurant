@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "sessionAttributes": {},
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Thank you for trying the Alexa Skills Kit sample. Have a nice day!"
+    },
+    "card": {
+      "type": "Simple",
+      "title": "SessionSpeechlet - Session Ended",
+      "content": "SessionSpeechlet - Thank you for trying the Alexa Skills Kit sample. Have a nice day!"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": null
+      }
+    },
+    "shouldEndSession": true
+  }
+}

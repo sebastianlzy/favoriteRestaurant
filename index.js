@@ -1,5 +1,7 @@
 'use strict';
 
+const onLaunch = require("./src/onLaunch");
+
 /**
  * This sample demonstrates a simple skill built with the Amazon Alexa Skills Kit.
  * The Intent Schema, Custom Slots, and Sample Utterances for this skill, as well as
@@ -142,12 +144,12 @@ function onSessionStarted(sessionStartedRequest, session) {
 /**
  * Called when the user launches the skill without specifying what they want.
  */
-function onLaunch(launchRequest, session, callback) {
-    console.log(`onLaunch requestId=${launchRequest.requestId}, sessionId=${session.sessionId}`);
-
-    // Dispatch to your skill's launch.
-    getWelcomeResponse(callback);
-}
+// function onLaunch(launchRequest, session, callback) {
+//     console.log(`onLaunch requestId=${launchRequest.requestId}, sessionId=${session.sessionId}`);
+//
+//     // Dispatch to your skill's launch.
+//     getWelcomeResponse(callback);
+// }
 
 /**
  * Called when the user specifies an intent for this skill.
@@ -205,8 +207,6 @@ exports.handler = (event, context, callback) => {
         }
 
         if (event.request.type === 'LaunchRequest') {
-
-
             onLaunch(
                 event.request,
                 event.session,

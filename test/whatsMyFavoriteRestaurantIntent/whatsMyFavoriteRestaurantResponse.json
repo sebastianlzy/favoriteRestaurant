@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "sessionAttributes": {},
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Your favorite color is red. Goodbye."
+    },
+    "card": {
+      "type": "Simple",
+      "title": "SessionSpeechlet - WhatsMyFavoriteRestaurantIntent",
+      "content": "SessionSpeechlet - Your favorite color is red. Goodbye."
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": null
+      }
+    },
+    "shouldEndSession": true
+  }
+}
