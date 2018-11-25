@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "sessionAttributes": {},
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Welcome to my favorite restaurants list. Please tell me your favorite restaurant by saying, my favorite restaurant is popeyes"
+    },
+    "card": {
+      "type": "Simple",
+      "title": "SessionSpeechlet - Welcome",
+      "content": "SessionSpeechlet - Welcome to my favorite restaurants list. Please tell me your favorite restaurant by saying, my favorite restaurant is popeyes"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "Please tell me your favorite color by saying, my favorite color is red"
+      }
+    },
+    "shouldEndSession": false
+  }
+}
